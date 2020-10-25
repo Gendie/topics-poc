@@ -1,0 +1,8 @@
+<div>
+    <ngx-datatable class="material" [rows]="rows" [columns]="columns" [footerHeight]="footerHeight" [count]="count"
+        [limit]="limit" (activate)="onActivate($event)">
+    </ngx-datatable>
+</div>
+<hr>
+<button (click)="addNewRow()">Add new</button>
+<hr>

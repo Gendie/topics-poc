@@ -1,0 +1,18 @@
+
+<section class="page-section">
+  <p><strong>{{idleState}}</strong></p>
+  <p *ngIf="lastPing"><small>Last keepalive ping <strong>{{lastPing | amTimeAgo}}</strong></small></p>
+  <button (click)="reset()" *ngIf="timedOut">Restart</button>
+</section>
+
+<section class="page-section">
+  <app-swiper-demo></app-swiper-demo>
+</section>
+
+<section class="page-section">
+  <app-data-table></app-data-table>
+</section>
+
+<section class="page-section">
+  <app-jwt-decode></app-jwt-decode>
+</section>
