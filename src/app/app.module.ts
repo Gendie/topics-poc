@@ -1,5 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
+import { MatTabsModule } from '@angular/material/tabs';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { SwiperModule } from 'ngx-swiper-wrapper';
@@ -31,6 +33,8 @@ const DEFAULT_SWIPER_CONFIG: SwiperConfigInterface = {
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
+    MatTabsModule,
     SwiperModule,
     NgxDatatableModule,
     FormsModule,
