@@ -14,6 +14,7 @@ import { AppComponent } from './app.component';
 import { SwiperDemoComponent } from './components/swiper-demo/swiper-demo.component';
 import { DataTableComponent } from './components/data-table/data-table.componet';
 import { JwtDecodeComponent } from './components/jwt-decode/jwt-decode.component';
+import { TapsPocComponent } from './pages/taps-poc/taps-poc.component';
 
 const DEFAULT_SWIPER_CONFIG: SwiperConfigInterface = {
   direction: 'horizontal',
@@ -25,7 +26,8 @@ const DEFAULT_SWIPER_CONFIG: SwiperConfigInterface = {
     AppComponent,
     SwiperDemoComponent,
     DataTableComponent,
-    JwtDecodeComponent
+    JwtDecodeComponent,
+    TapsPocComponent
   ],
   imports: [
     BrowserModule,
